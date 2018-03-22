@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "log4net.Rollbar", "log4net.Rollbar\log4net.Rollbar.csproj", "{0F78ED99-75EE-49FA-8399-B9A09AD5514B}"
 EndProject
@@ -18,6 +18,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1E9534
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{6C1FA4B3-4A60-486B-9BE9-D2DB09D19405}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppFramework452", "ConsoleAppFramework452\ConsoleAppFramework452.csproj", "{89FE7AD1-549E-40B3-A389-37041A796D2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,8 +32,18 @@ Global
 		{0F78ED99-75EE-49FA-8399-B9A09AD5514B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F78ED99-75EE-49FA-8399-B9A09AD5514B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F78ED99-75EE-49FA-8399-B9A09AD5514B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FE7AD1-549E-40B3-A389-37041A796D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FE7AD1-549E-40B3-A389-37041A796D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FE7AD1-549E-40B3-A389-37041A796D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89FE7AD1-549E-40B3-A389-37041A796D2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89FE7AD1-549E-40B3-A389-37041A796D2D} = {6C1FA4B3-4A60-486B-9BE9-D2DB09D19405}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80D2F30B-F765-4541-A766-0C705FE84538}
 	EndGlobalSection
 EndGlobal
